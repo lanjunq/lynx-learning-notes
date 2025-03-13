@@ -1,8 +1,8 @@
 ---
-icon: laptop-mobile
+icon: circle-play
 ---
 
-# 开发者体验
+# 快速上手
 
 ### Getting Started
 

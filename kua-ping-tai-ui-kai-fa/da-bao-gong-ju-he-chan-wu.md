@@ -20,6 +20,20 @@ NPM 包
 
 
 
+写好的代码需要进行打包，以准备在最终设备上运行。原生开发需要编译 — 将代码及其依赖按照一定规则编译成机器能执行的代码。类比到 Web，就是把代码及其依赖转化成运行时能执行的代码。打包的过程可以包括：包含依赖代码，将新的语法规则转换成老的，打包静态资源，比如 TS -> JS，优化 (tree shaking/code splitting)。典型的工具包括 Webpack, Rollup, Vite, esbuild.&#x20;
+
+
+
+前端打包工具在整个开发流程中的位置
+
+<img src="../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
+
+
+
+从原生 app 的角度来说，最终产物包含什么？
+
+
+
 #### 深入研究构建产物
 
 深入研究：如果用浏览器访问这个 URL，会得到什么呢？
@@ -77,4 +91,6 @@ main-thread.js 的内容很多，是因为是打包的结果，包含
 ```
 # tasm.json
 ```
+
+
 
