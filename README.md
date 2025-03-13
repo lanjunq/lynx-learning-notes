@@ -6,7 +6,7 @@ icon: hand-wave
 
 欢迎来到 “Lynx 学习笔记”。
 
-本文的 Lynx 指的是字节跳动开源的跨平台 UI 框架，可以用 Web 开发的技术来写跨平台的原生应用。详见[官网](https://lynxjs.org/zh/index.html)和 [lynx-family github 仓库](https://github.com/lynx-family)。
+本文的 Lynx 指的是字节跳动开源的跨平台 UI 框架，可以用 Web 开发技术来写跨平台的原生应用。详见[官网](https://lynxjs.org/zh/index.html)和 [lynx-family github 仓库](https://github.com/lynx-family)。
 
 这里记录了我个人在学习 Lynx 过程中的笔记、心得、体会。一方面可以通过输出来帮助我学习 Lynx 的过程，并且记录我学习的过程。另一方面，也希望能够为 Lynx 增加一些学习资源。和官网相比这些学习资料可能比较单薄，但希望个人的视角也可以为后来学习的人提供一些信息。
 
