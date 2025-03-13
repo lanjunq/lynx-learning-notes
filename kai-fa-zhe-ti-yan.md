@@ -49,10 +49,10 @@ npm run dev
 
 ├── README.md
 ├── dist               # 构建产物
-├── lynx.config.ts     # ⭐️
+├── lynx.config.ts     # Lynx 配置文件 ⭐️
 ├── node_modules       # 运行 npm install 产生的依赖
 ├── package-lock.json  # 运行 npm install 产生的文件
-├── package.json       # ⭐️
+├── package.json       # NPM 配置文件 ⭐️
 ├── src
 │   ├── App.css
 │   ├── App.tsx
@@ -69,33 +69,7 @@ npm run dev
 
 
 
-深入研究：如果用浏览器访问这个 URL，会得到什么呢？
 
-会下载一个类型不明的文件。应该是 Lynx 自定义的文件格式，应该可以被 Lynx SDK 解析。用 text editor 打开会看到，最开始是乱码，后面是类似 JavaScript 的语法。看起来是某些产物打包到一起。
-
-如果分析前端构建产物，会看到：
-
-```
-$ cd dist && tree -a
-.
-├── .rspeedy
-│   ├── main
-│   │   ├── background.js
-│   │   ├── background.js.map
-│   │   ├── debug-info.json
-│   │   ├── main.css    
-│   │   ├── main.css.hot-update.json
-│   │   └── tasm.json
-│   └── main__main-thread
-│       ├── main-thread.js
-│       └── main-thread.js.map
-├── main.lynx.bundle
-└── static
-    └── image
-        ├── arrow.aee54ba7.png
-        ├── lynx-logo.620eb8d1.png
-        └── react-logo.75eb3837.png
-```
 
 
 
