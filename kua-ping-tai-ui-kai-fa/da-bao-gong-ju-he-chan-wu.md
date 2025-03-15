@@ -28,6 +28,8 @@ NPM 包
 
 <img src="../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
 
+细节: lynx.config.ts 里面包含什么选项?
+
 
 
 从原生 app 的角度来说，最终产物包含什么？

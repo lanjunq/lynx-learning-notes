@@ -4,9 +4,10 @@
 * [(大纲)](da-gang.md)
 * [什么是 Lynx?](shen-me-shi-lynx.md)
 * [快速上手](kuai-su-shang-shou.md)
-* [跨端 JS 开发](kua-duan-js-kai-fa/README.md)
-  * [打包工具和产物](kua-duan-js-kai-fa/da-bao-gong-ju-he-chan-wu.md)
+* [跨端 JS 开发](kua-ping-tai-ui-kai-fa/README.md)
+  * [打包工具和产物](kua-ping-tai-ui-kai-fa/da-bao-gong-ju-he-chan-wu.md)
 * [接入原生 App](jie-ru-yuan-sheng-app.md)
+* [Lynx 引擎原理](lynx-yin-qing-yuan-li.md)
 
 ## Getting Started
 

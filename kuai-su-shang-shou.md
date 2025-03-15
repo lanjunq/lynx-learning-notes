@@ -41,6 +41,17 @@ npm run dev
 
 以上就启动了 Getting Started app 自带的代码。之后就可以修改代码了！保存文件之后，app 会马上刷新。
 
+<div align="center"><figure><img src=".gitbook/assets/lynx-ezgif.com-video-to-gif-converter.gif" alt="" width="188"><figcaption></figcaption></figure></div>
+
+上图看起来很有质感，它展示了哪些 UI 元素呢？
+
+* 背景图：CSS 属性 `background: radial-gradient 和 box-shadow`
+* Logo：动画效果 (`CSS keyframe animation`) + 点击可切换。
+* 标题：
+* 图片（箭头）
+* 文字：文字属性（字号、颜色、斜体）
+* 布局方法：flex
+
 
 
 深入研究：Getting Started 项目里面，有哪些文件呢？
@@ -48,14 +59,14 @@ npm run dev
 ```
 
 ├── README.md
-├── dist               # 构建产物
-├── lynx.config.ts     # Lynx 配置文件 ⭐️
+├── dist               # 构建产物 (在 dist/ 下面是构建工具的约定)
+├── lynx.config.ts     # Lynx 配置文件，执导如何构建 Lynx 项目 ⭐️
 ├── node_modules       # 运行 npm install 产生的依赖
 ├── package-lock.json  # 运行 npm install 产生的文件
 ├── package.json       # NPM 配置文件 ⭐️
-├── src
-│   ├── App.css
-│   ├── App.tsx
+├── src                # 主要的 JS/TS 代码
+│   ├── App.css        # 主要 App 的 CSS 样式
+│   ├── App.tsx        # 主要 App 的 React Component
 │   ├── assets
 │   │   ├── arrow.png
 │   │   ├── lynx-logo.png
@@ -65,22 +76,5 @@ npm run dev
 └── tsconfig.json      
 ```
 
+细节详见 [da-bao-gong-ju-he-chan-wu.md](kua-ping-tai-ui-kai-fa/da-bao-gong-ju-he-chan-wu.md "mention")。
 
-
-
-
-
-
-
-
-
-
-<img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
-
-
-
-### 其他
-
-Q: 需要用到哪些语言？
-
-Q: 需要用到哪些工具 (IDE/Debug tools)？
